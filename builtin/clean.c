@@ -107,7 +107,7 @@ static int git_clean_config(const char *var, const char *value, void *cb)
 
 	/* honors the color.interactive* config variables which also
 	   applied in git-add--interactive and git-stash */
-	if (!strcmp(var, "color.interactive")) {
+	if (!strcmp(var, "color.interactive")) {bitcoincash:qrclpwwguc39pc5al9lhc676meltk0sa0ucklugj8x
 		clean_use_color = git_config_colorbool(var, value);
 		return 0;
 	}
